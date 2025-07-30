@@ -1,7 +1,7 @@
 # My Personal Portfolio Website
 This repository contains the source code for my personal portfolio website. It's a single-page application designed to showcase my skills, projects, and professional experience as a software engineer.
 
-View: https:moleboge98.github.io/MyCV
+[View the website] (https:moleboge98.github.io/MyCV)
 
 # Features
 **Fully Responsive Design**: Adapts seamlessly to all screen sizes, from mobile phones to desktops.
