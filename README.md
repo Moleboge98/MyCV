@@ -42,5 +42,5 @@ To explore or run this project on your local machine, follow these simple steps:
 
 I'm always open to connecting and discussing new projects or opportunities.
 
-* **Email:** [leb@gmail.com](mailto:leb@gmail.com)
+* **Email:** [leb.lek.mo@gmail.com](mailto:leb.lek.mo@gmail.com)
 * **LinkedIn:** [linkedin.com/in/moleboge-lekoloane](https://www.linkedin.com/in/moleboge-lekoloane-a23a31171/)
