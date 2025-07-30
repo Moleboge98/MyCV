@@ -1,31 +1,46 @@
-# My Personal Portfolio Website
-This repository contains the source code for my personal portfolio website. It's a single-page application designed to showcase my skills, projects, and professional experience as a software engineer.
+# Personal Portfolio & CV Website
 
-[View the website] (https:moleboge98.github.io/MyCV)
+Welcome to the repository for my personal portfolio website. This project is a clean, single-page application built to showcase my journey, skills, and work as a software engineer.
 
-# Features
-**Fully Responsive Design**: Adapts seamlessly to all screen sizes, from mobile phones to desktops.
+### [View Live Site](https://moleboge98.github.io/MyCV/)
 
-**Interactive Project Cards**: Each project is displayed in a clean, interactive card with a description, tech tags, and a direct link to the live version or source code.
+## About This Project
 
-**Dynamic Navigation**: The navigation bar highlights the section currently being viewed and provides smooth scrolling to each part of the page.
+This portfolio is my digital CV, designed to provide a comprehensive overview of my professional background. It details my work experience, education, and the full-stack projects I've developed. The primary goal is to present this information in a modern, accessible, and visually appealing format.
 
-**Clean & Modern UI**: Built with a focus on readability and a professional aesthetic.
+## Key Features
 
-Technologies Used
-This website was built using a modern front-end stack:
+* **Fully Responsive:** The layout is optimized for a seamless experience on all devices, from mobile phones to widescreen desktops.
+* **Interactive UI:** Features smooth scrolling, active navigation highlighting, and interactive project cards that link to live demos and source code.
+* **Clean & Modern Design:** Built with a focus on readability and a professional aesthetic to ensure a great user experience.
 
-**HTML5**: For the core structure and content.
+## Tech Stack
 
-**Tailwind CSS**: For all styling and layout, enabling a rapid and responsive design process.
+This website was built from the ground up using a modern front-end stack:
 
-**JavaScript**: For interactive elements like the mobile menu and active navigation highlighting.
+* **HTML5:** For the core structure and semantic content.
+* **Tailwind CSS:** A utility-first CSS framework for all styling, layout, and responsive design.
+* **JavaScript:** For dynamic functionality, including the mobile menu toggle and scroll-based navigation updates.
+* **Font Awesome:** For high-quality, scalable icons.
 
-**Font Awesome**: For clean and scalable icons.
+## Local Setup
 
-# Contact
-I'm always open to connecting and discussing new opportunities.
+To explore or run this project on your local machine, follow these simple steps:
 
-Email: leb.lek.mo@gmail.com
+1.  **Clone the repository:**
+    ```
+    git clone [https://github.com/Moleboge98/MyCV.git](https://github.com/Moleboge98/MyCV.git)
+    ```
+2.  **Navigate to the directory:**
+    ```
+    cd MyCV
+    ```
+3.  **Open `index.html` in your browser:**
+    You can typically just double-click the file to open it.
 
-LinkedIn: linkedin.com/in/moleboge-lekoloane
+## Get In Touch
+
+I'm always open to connecting and discussing new projects or opportunities.
+
+* **Email:** [leb@gmail.com](mailto:leb@gmail.com)
+* **LinkedIn:** [linkedin.com/in/moleboge-lekoloane](https://www.linkedin.com/in/moleboge-lekoloane-a23a31171/)
