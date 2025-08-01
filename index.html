@@ -18,7 +18,7 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #ffffff; /* Changed to white */
+            background-color: #ffffff; /* White background */
         }
         .section-title {
             color: #1e293b; /* slate-800 */
@@ -169,21 +169,36 @@
         </section>
 
         <!-- Projects -->
-        <section id="projects" class="py-16">
+        <section id="projects" class="py-16 bg-slate-50 rounded-xl mt-12">
             <h2 class="section-title text-3xl font-bold text-center mb-12">My Projects</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card - BRICS -->
+                <div class="card flex flex-col">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">BRICS Astronomy Website</h3>
+                        <p class="text-slate-600 mb-4">Designed and deployed the official website for the BRICS Astronomy consortium, a platform for international scientific collaboration.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Deployment</span>
+                        </div>
+                    </div>
+                    <div class="p-6 bg-white rounded-b-xl border-t border-slate-100">
+                        <a href="https://bricsastronomy.org/" target="_blank" rel="noopener noreferrer" class="block w-full text-center btn-primary font-semibold py-2 px-4 rounded-lg">View Site</a>
+                    </div>
+                </div>
                 <!-- Project Card 1 -->
                 <div class="card flex flex-col">
                     <div class="p-6 flex-grow">
                         <h3 class="text-xl font-bold text-slate-800 mb-2">Jupyter Notebook Grader</h3>
-                        <p class="text-slate-600 mb-4">A platform for a global initiative spanning 23 countries to automate capstone project submission, grading, and certificate issuance for over 900 applicants.</p>
+                        <p class="text-slate-600 mb-4">A platform for a global initiative spanning 23 countries to automate capstone project submission, grading, and certificate issuance.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="tag">React</span>
                             <span class="tag">Firebase</span>
                             <span class="tag">Automation</span>
                         </div>
                     </div>
-                    <div class="p-6 bg-slate-50 rounded-b-xl">
+                    <div class="p-6 bg-white rounded-b-xl border-t border-slate-100">
                         <a href="https://jupyter-grader-864f1.web.app/" target="_blank" rel="noopener noreferrer" class="block w-full text-center btn-primary font-semibold py-2 px-4 rounded-lg">View Project</a>
                     </div>
                 </div>
@@ -191,14 +206,14 @@
                 <div class="card flex flex-col">
                     <div class="p-6 flex-grow">
                         <h3 class="text-xl font-bold text-slate-800 mb-2">AstroVMS</h3>
-                        <p class="text-slate-600 mb-4">An Astronmy Volunteer Management System concept designed for astronomical observatories to manage volunteers and match them with activities taking place.</p>
+                        <p class="text-slate-600 mb-4">An Astronomy Volunteer Management System concept to manage volunteers and match them with activities.</p>
                          <div class="flex flex-wrap gap-2 mb-4">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
                             <span class="tag">JavaScript</span>
                         </div>
                     </div>
-                    <div class="p-6 bg-slate-50 rounded-b-xl">
+                    <div class="p-6 bg-white rounded-b-xl border-t border-slate-100">
                         <a href="https://moleboge98.github.io/AstroVMS/" target="_blank" rel="noopener noreferrer" class="block w-full text-center btn-primary font-semibold py-2 px-4 rounded-lg">View Project</a>
                     </div>
                 </div>
@@ -206,14 +221,14 @@
                 <div class="card flex flex-col">
                     <div class="p-6 flex-grow">
                         <h3 class="text-xl font-bold text-slate-800 mb-2">BurgundyParcelle E-commerce</h3>
-                        <p class="text-slate-600 mb-4">A full-featured e-commerce platform concept, demonstrating capabilities in product management, shopping cart functionality, and user authentication.</p>
+                        <p class="text-slate-600 mb-4">A full-featured e-commerce platform concept, demonstrating capabilities in product management, shopping cart, and user authentication.</p>
                          <div class="flex flex-wrap gap-2 mb-4">
                             <span class="tag">Django</span>
                             <span class="tag">Python</span>
                             <span class="tag">E-commerce</span>
                         </div>
                     </div>
-                    <div class="p-6 bg-slate-50 rounded-b-xl">
+                    <div class="p-6 bg-white rounded-b-xl border-t border-slate-100">
                         <a href="https://github.com/Moleboge98/BurgundyParcelle-ecom/tree/main" target="_blank" rel="noopener noreferrer" class="block w-full text-center btn-primary font-semibold py-2 px-4 rounded-lg">View on GitHub</a>
                     </div>
                 </div>
@@ -221,7 +236,7 @@
         </section>
 
         <!-- Work Experience -->
-        <section id="experience" class="py-16 bg-slate-50 rounded-xl">
+        <section id="experience" class="py-16 bg-slate-50 rounded-xl mt-12">
             <h2 class="section-title text-3xl font-bold text-center mb-12">Work Experience</h2>
             <div class="max-w-4xl mx-auto space-y-8">
                 <div class="card p-6">
@@ -266,7 +281,7 @@
         </section>
 
         <!-- Education -->
-        <section id="education" class="py-16">
+        <section id="education" class="py-16 bg-slate-50 rounded-xl mt-12">
             <h2 class="section-title text-3xl font-bold text-center mb-12">Education</h2>
             <div class="max-w-4xl mx-auto space-y-8">
                 <div class="card p-6">
@@ -288,7 +303,7 @@
     </main>
 
     <!-- Footer -->
-    <footer id="contact" class="bg-slate-800 text-white py-12">
+    <footer id="contact" class="bg-slate-800 text-white py-12 mt-12">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
             <p class="text-slate-300 mb-2">Moleboge Lekoloane</p>
